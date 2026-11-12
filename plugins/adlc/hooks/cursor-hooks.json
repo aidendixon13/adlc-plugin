@@ -1,0 +1,18 @@
+{
+  "version": 1,
+  "hooks": {
+    "sessionStart": [
+      {
+        "command": "node -e \"require(process.env.CURSOR_PLUGIN_ROOT + '/hooks/cursor/session-start.cjs')\"",
+        "timeout": 30
+      }
+    ],
+    "subagentStop": [
+      {
+        "command": "node -e \"require(process.env.CURSOR_PLUGIN_ROOT + '/hooks/cursor/subagent-stop.cjs')\"",
+        "timeout": 120,
+        "loop_limit": 1
+      }
+    ]
+  }
+}

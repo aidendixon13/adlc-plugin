@@ -1,0 +1,12 @@
+{
+  "name": "adlc",
+  "version": "1.3.0",
+  "description": "Agentic Development Lifecycle: refine, plan, break down, execute, and ship PRs through a spec-driven pipeline.",
+  "author": {
+    "name": "HG Capital",
+    "email": "nick.barrington@hgcapital.com"
+  },
+  "repository": "https://github.com/aidendixon13/adlc-plugin",
+  "keywords": ["workflow", "planning", "tdd", "code-review", "pull-requests", "subagents"],
+  "hooks": "hooks/cursor-hooks.json"
+}

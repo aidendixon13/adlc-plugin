@@ -1,0 +1,11 @@
+{
+  "name": "adlc-plugin",
+  "owner": { "name": "Aiden Dixon" },
+  "plugins": [
+    {
+      "name": "adlc",
+      "source": "plugins/adlc",
+      "description": "Agentic Development Lifecycle: refine, plan, break down, execute, and ship PRs."
+    }
+  ]
+}
